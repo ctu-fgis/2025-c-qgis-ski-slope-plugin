@@ -12,7 +12,6 @@ from qgis.core import QgsProcessingParameterPointCloudLayer
 from qgis.core import QgsProcessingParameterFeatureSink
 import processing
 
-
 class Model(QgsProcessingAlgorithm):
 
     def initAlgorithm(self, config=None):
