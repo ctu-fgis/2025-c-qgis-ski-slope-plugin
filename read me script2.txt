@@ -1,0 +1,21 @@
+This script was created in QGIS using the Model Builder tool.
+
+Overview
+
+The input data primarily consists of polygon layers that are the result of Script 1 - 'sjezd'. In addition, the script uses various other vector layers to define the feasible areas where a ski slope can actually be built.
+Constraints Considered
+
+The model excludes unsuitable areas by taking into account:
+
+- Roads  
+- Watercourses  
+- Buildings  
+- Protected areas  
+- Railways
+
+Output
+
+The result is a set of polygons representing areas not intersecting with any of the above-mentioned constraints. These polygons mark the regions where ski slopes can potentially be constructed.
+
+In directory sample data2, there are all used vector layers.
+
