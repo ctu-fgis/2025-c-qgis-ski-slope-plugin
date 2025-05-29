@@ -1,0 +1,14 @@
+This script was created in QGIS using Model Buider.
+
+Input data - .LAZ files. You can download these files from the following website: https://ags.cuzk.gov.cz/geoprohlizec/?atom=dmr5g
+
+In the sample data directory, there are three .LAZ files
+
+The results are polygons indicating areas where a ski slope can be built.
+
+This is first prototype of the script, which means it currently works only with terraine dataset.
+
+In the next update, vector data  will be included such as towns, existing ski slopes, roads or water bodies
+
+
+This script can be run using the Model Builder. After launching the model, a dialog will appear where you can select the .LAZ files.
