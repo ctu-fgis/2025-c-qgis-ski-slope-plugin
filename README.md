@@ -20,16 +20,16 @@ Model pro identifikaci vhodných míst pro stavbu sjezdovky
 
 ## Popis modelu / skriptu
 > zpracování LiDAR dat:
-    - Načtení **.laz** souboru
-    - Výpočet sklonu, následné vyselektování ploch se sklonem 15° - 45°
-    - vytvoření konvexního obalu kolem ploch za účelem sjednocení překrývajících se malých plošek
-    - vyselektování ploch s výměrou větší než 1500m^2 
-    - Výběr ploch s vhodným sklonem pro sjezdovku
+- Načtení **.laz** souboru
+- Výpočet sklonu, následné vyselektování ploch se sklonem 15° - 45°
+- vytvoření konvexního obalu kolem ploch za účelem sjednocení překrývajících se malých plošek
+- vyselektování ploch s výměrou větší než 1500m^2 
+- Výběr ploch s vhodným sklonem pro sjezdovku
 > práce s vektorovými daty:
-    - Načtení omezení z vektorových vrstev (komunikace, železnice, vodní toky, chráněné území a budovy)
-    - Vytvoření ochranných pásem kolem těchto objektů
-    - Odstranění nevhodných oblastí ze sklonové vrstvy
+ - Načtení omezení z vektorových vrstev (komunikace, železnice, vodní toky, chráněné území a budovy)
+- Vytvoření ochranných pásem kolem těchto objektů
+- Odstranění nevhodných oblastí ze sklonové vrstvy
 > výstup:
-    - vektorová vrstva vytipovaných ploch s vhodným sklonem pro výstavbu sjezdovky
-    - Vektorová vrstva s vhodnými lokalitami pro stavbu sjezdovky 
+- vektorová vrstva vytipovaných ploch s vhodným sklonem pro výstavbu sjezdovky
+- Vektorová vrstva s vhodnými lokalitami pro stavbu sjezdovky 
 
